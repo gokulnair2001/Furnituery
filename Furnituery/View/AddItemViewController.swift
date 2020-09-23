@@ -44,7 +44,7 @@ class AddItemViewController: UIViewController {
         
         if (addNameTextField.text != "" && addPriceTextField.text != "" && AdditemImage.image != nil) {
             
-            self.main.price.append(addPriceTextField.text!)
+            self.main.price.append(Int(addPriceTextField.text!)!)
             self.main.itemName.append(addNameTextField.text!)
             self.main.arrImageData.append(AdditemImage.image!)
             

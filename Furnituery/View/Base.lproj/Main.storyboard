@@ -186,32 +186,43 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PbL-hq-i2c">
-                                                    <rect key="frame" x="8" y="22" width="183" height="194"/>
+                                                    <rect key="frame" x="8" y="22" width="172" height="194"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cle-T0-kwL">
-                                                            <rect key="frame" x="8" y="8" width="167" height="102"/>
+                                                            <rect key="frame" x="8" y="8" width="156" height="102"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="102" id="2Vg-a4-bRn"/>
-                                                                <constraint firstAttribute="width" constant="167" id="w65-i7-y3P"/>
+                                                                <constraint firstAttribute="width" constant="156" id="7JX-5w-fyY"/>
+                                                                <constraint firstAttribute="height" constant="102" id="nNS-d2-tcb"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MK7-RY-ioe">
-                                                            <rect key="frame" x="8" y="146" width="94" height="26"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MK7-RY-ioe">
+                                                            <rect key="frame" x="8" y="146" width="156" height="26"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="156" id="7F0-a3-p3m"/>
+                                                                <constraint firstAttribute="height" constant="26" id="Bw9-Oc-zbL"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="19"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ch0-q3-Egk">
+                                                            <rect key="frame" x="0.0" y="147" width="9" height="24"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstItem="MK7-RY-ioe" firstAttribute="leading" secondItem="PbL-hq-i2c" secondAttribute="leading" constant="8" id="HFz-y3-Yuz"/>
-                                                        <constraint firstItem="cle-T0-kwL" firstAttribute="top" secondItem="PbL-hq-i2c" secondAttribute="top" constant="8" id="SAT-Ex-niQ"/>
-                                                        <constraint firstItem="MK7-RY-ioe" firstAttribute="top" secondItem="cle-T0-kwL" secondAttribute="bottom" constant="36" id="SjH-tH-258"/>
-                                                        <constraint firstAttribute="trailing" secondItem="cle-T0-kwL" secondAttribute="trailing" constant="8" id="SnF-Hi-cmi"/>
-                                                        <constraint firstItem="cle-T0-kwL" firstAttribute="leading" secondItem="PbL-hq-i2c" secondAttribute="leading" constant="8" id="Vtd-na-0ID"/>
-                                                        <constraint firstAttribute="trailing" secondItem="MK7-RY-ioe" secondAttribute="trailing" constant="81" id="zAr-mo-FnN"/>
+                                                        <constraint firstItem="MK7-RY-ioe" firstAttribute="leading" secondItem="PbL-hq-i2c" secondAttribute="leading" constant="8" id="1DM-gY-5VK"/>
+                                                        <constraint firstItem="cle-T0-kwL" firstAttribute="leading" secondItem="PbL-hq-i2c" secondAttribute="leading" constant="8" id="BEC-Wf-9I8"/>
+                                                        <constraint firstAttribute="trailing" secondItem="MK7-RY-ioe" secondAttribute="trailing" constant="8" id="GbE-uL-6Kt"/>
+                                                        <constraint firstItem="MK7-RY-ioe" firstAttribute="top" secondItem="cle-T0-kwL" secondAttribute="bottom" constant="36" id="aVn-qw-JYh"/>
+                                                        <constraint firstAttribute="trailing" secondItem="cle-T0-kwL" secondAttribute="trailing" constant="8" id="nHA-b0-O0x"/>
+                                                        <constraint firstItem="cle-T0-kwL" firstAttribute="top" secondItem="PbL-hq-i2c" secondAttribute="top" constant="8" id="wwf-Wt-lPD"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -220,8 +231,10 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="5rV-r8-Eym">
-                                                    <rect key="frame" x="201" y="18" width="197" height="208"/>
+                                                    <rect key="frame" x="190" y="18" width="197" height="208"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="197" id="2DC-QP-Ukv"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="208" id="DX3-xu-Zkk"/>
                                                         <constraint firstAttribute="width" constant="197" id="brU-yn-7xe"/>
                                                         <constraint firstAttribute="height" constant="208" id="ygv-Jz-mvX"/>
                                                     </constraints>
@@ -231,10 +244,13 @@
                                                 <constraint firstItem="5rV-r8-Eym" firstAttribute="leading" secondItem="PbL-hq-i2c" secondAttribute="trailing" constant="10" id="0Gz-WG-vFM"/>
                                                 <constraint firstAttribute="bottom" secondItem="PbL-hq-i2c" secondAttribute="bottom" constant="28" id="30N-BM-r06"/>
                                                 <constraint firstItem="PbL-hq-i2c" firstAttribute="leading" secondItem="E4p-GJ-sUQ" secondAttribute="leading" constant="8" id="5Sp-AQ-2ct"/>
+                                                <constraint firstAttribute="bottom" secondItem="5rV-r8-Eym" secondAttribute="bottom" constant="18" id="8hn-3E-SBI"/>
+                                                <constraint firstItem="5rV-r8-Eym" firstAttribute="leading" secondItem="E4p-GJ-sUQ" secondAttribute="leading" constant="190" id="Asg-0G-W4t"/>
                                                 <constraint firstItem="PbL-hq-i2c" firstAttribute="top" secondItem="E4p-GJ-sUQ" secondAttribute="top" constant="22" id="M9s-2Z-XXo"/>
                                                 <constraint firstAttribute="bottom" secondItem="5rV-r8-Eym" secondAttribute="bottom" constant="18" id="Ugb-H6-UwO"/>
-                                                <constraint firstAttribute="trailing" secondItem="5rV-r8-Eym" secondAttribute="trailing" constant="6" id="cVV-At-ObU"/>
+                                                <constraint firstAttribute="trailing" secondItem="5rV-r8-Eym" secondAttribute="trailing" constant="17" id="hjb-mT-cL9"/>
                                                 <constraint firstItem="5rV-r8-Eym" firstAttribute="top" secondItem="E4p-GJ-sUQ" secondAttribute="top" constant="18" id="r5K-ht-QAI"/>
+                                                <constraint firstItem="5rV-r8-Eym" firstAttribute="top" secondItem="E4p-GJ-sUQ" secondAttribute="top" constant="18" id="zfS-eT-K5T"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="404" height="244"/>
@@ -246,24 +262,35 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Furnituery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aqj-72-KSE">
-                                <rect key="frame" x="48" y="55" width="319" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKf-we-jzc">
-                                <rect key="frame" x="360" y="59" width="29" height="28"/>
+                                <rect key="frame" x="360" y="55" width="35" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="escape" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="23" weight="heavy"/>
+                                <state key="normal" image="f.square" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" weight="medium"/>
                                 </state>
                                 <connections>
                                     <action selector="addItem:" destination="GLa-kS-ct1" eventType="touchUpInside" id="jdy-dv-ONe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B83-SP-Psq">
+                                <rect key="frame" x="21" y="55" width="35" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="chevron.down.square" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="sortButton:" destination="GLa-kS-ct1" eventType="touchUpInside" id="rGE-Ld-u9P"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Furnituery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aqj-72-KSE">
+                                <rect key="frame" x="123" y="55" width="169" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cyt-aJ-itp"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -325,7 +352,7 @@
                                 <rect key="frame" x="40" y="587" width="334" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbL-oM-4XH">
                                 <rect key="frame" x="45" y="422" width="58" height="55"/>
@@ -582,8 +609,8 @@
         <image name="2" width="350" height="350"/>
         <image name="bed.double" catalog="system" width="128" height="82"/>
         <image name="bg1" width="1024" height="1024"/>
+        <image name="chevron.down.square" catalog="system" width="128" height="114"/>
         <image name="desktopcomputer" catalog="system" width="128" height="101"/>
-        <image name="escape" catalog="system" width="128" height="121"/>
         <image name="f.square" catalog="system" width="128" height="114"/>
         <image name="imageedit_3_7025078280" width="800" height="800"/>
         <image name="imageedit_5_5425640290" width="480" height="480"/>
