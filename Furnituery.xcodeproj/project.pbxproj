@@ -21,6 +21,7 @@
 		5522FEE2251A7C6900CBC7E2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5522FEE1251A7C6900CBC7E2 /* ProfileViewController.swift */; };
 		5522FEE7251A7C8D00CBC7E2 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5522FEE6251A7C8D00CBC7E2 /* ExploreViewController.swift */; };
 		5522FEEC251A7CA300CBC7E2 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5522FEEB251A7CA300CBC7E2 /* AddItemViewController.swift */; };
+		556804C0251B002000EA0E3F /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556804BF251B002000EA0E3F /* MainCollectionViewCell.swift */; };
 		55D336352519BBD600B17FE4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D336342519BBD600B17FE4 /* SignInViewController.swift */; };
 		55D3363A2519BBE100B17FE4 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D336392519BBE100B17FE4 /* SignUPViewController.swift */; };
 		55D3363F2519BD6800B17FE4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3363E2519BD6800B17FE4 /* Utilities.swift */; };
@@ -70,6 +71,7 @@
 		5522FEE1251A7C6900CBC7E2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Furnituery/View/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
 		5522FEE6251A7C8D00CBC7E2 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = Furnituery/View/ExploreViewController.swift; sourceTree = SOURCE_ROOT; };
 		5522FEEB251A7CA300CBC7E2 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddItemViewController.swift; path = Furnituery/View/AddItemViewController.swift; sourceTree = SOURCE_ROOT; };
+		556804BF251B002000EA0E3F /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		55D336342519BBD600B17FE4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = Furnituery/View/SignInViewController.swift; sourceTree = SOURCE_ROOT; };
 		55D336392519BBE100B17FE4 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
 		55D3363E2519BD6800B17FE4 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				55D336342519BBD600B17FE4 /* SignInViewController.swift */,
 				55D336392519BBE100B17FE4 /* SignUPViewController.swift */,
 				551073002519B01700BEAB57 /* MainViewController.swift */,
+				556804BE251AFFF700EA0E3F /* Cells */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -225,6 +228,14 @@
 				5522FEDC251A1B7300CBC7E2 /* hapticFeedback.swift */,
 			);
 			path = "Supporting file";
+			sourceTree = "<group>";
+		};
+		556804BE251AFFF700EA0E3F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				556804BF251B002000EA0E3F /* MainCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +484,7 @@
 				55D336442519BE1F00B17FE4 /* ModelConstants.swift in Sources */,
 				55D336352519BBD600B17FE4 /* SignInViewController.swift in Sources */,
 				551073012519B01700BEAB57 /* MainViewController.swift in Sources */,
+				556804C0251B002000EA0E3F /* MainCollectionViewCell.swift in Sources */,
 				5522FEDD251A1B7300CBC7E2 /* hapticFeedback.swift in Sources */,
 				5522FEE2251A7C6900CBC7E2 /* ProfileViewController.swift in Sources */,
 				551072FD2519B01700BEAB57 /* AppDelegate.swift in Sources */,
