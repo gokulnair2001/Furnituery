@@ -26,6 +26,9 @@
 		55D3363A2519BBE100B17FE4 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D336392519BBE100B17FE4 /* SignUPViewController.swift */; };
 		55D3363F2519BD6800B17FE4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3363E2519BD6800B17FE4 /* Utilities.swift */; };
 		55D336442519BE1F00B17FE4 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D336432519BE1F00B17FE4 /* ModelConstants.swift */; };
+		55E1A64A251C83BA00171200 /* ChairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1A649251C83BA00171200 /* ChairViewController.swift */; };
+		55E1A64F251C83C200171200 /* CouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1A64E251C83C200171200 /* CouchViewController.swift */; };
+		55E1A654251C83CA00171200 /* LoungeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1A653251C83CA00171200 /* LoungeViewController.swift */; };
 		65740C75E50AEDB5EFF2D0E2 /* Pods_Furnituery_FurnitueryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB319F926540C81C39F5F0C9 /* Pods_Furnituery_FurnitueryUITests.framework */; };
 		B6B8F1B57E7EC560F4234D72 /* Pods_FurnitueryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF949A69B81C07F27B1E9BC /* Pods_FurnitueryTests.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +79,9 @@
 		55D336392519BBE100B17FE4 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
 		55D3363E2519BD6800B17FE4 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		55D336432519BE1F00B17FE4 /* ModelConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConstants.swift; sourceTree = "<group>"; };
+		55E1A649251C83BA00171200 /* ChairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairViewController.swift; sourceTree = "<group>"; };
+		55E1A64E251C83C200171200 /* CouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchViewController.swift; sourceTree = "<group>"; };
+		55E1A653251C83CA00171200 /* LoungeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoungeViewController.swift; sourceTree = "<group>"; };
 		B43D4B06BE7180A93565D20A /* Pods-Furnituery-FurnitueryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furnituery-FurnitueryUITests.release.xcconfig"; path = "Target Support Files/Pods-Furnituery-FurnitueryUITests/Pods-Furnituery-FurnitueryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B46665A49EE8F3D410F8A321 /* Pods-Furnituery-FurnitueryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furnituery-FurnitueryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Furnituery-FurnitueryUITests/Pods-Furnituery-FurnitueryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAF949A69B81C07F27B1E9BC /* Pods_FurnitueryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FurnitueryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,6 +220,7 @@
 				55D336342519BBD600B17FE4 /* SignInViewController.swift */,
 				55D336392519BBE100B17FE4 /* SignUPViewController.swift */,
 				551073002519B01700BEAB57 /* MainViewController.swift */,
+				55E1A645251C83A300171200 /* Sub VC */,
 				556804BE251AFFF700EA0E3F /* Cells */,
 			);
 			path = Controller;
@@ -236,6 +243,16 @@
 				556804BF251B002000EA0E3F /* MainCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		55E1A645251C83A300171200 /* Sub VC */ = {
+			isa = PBXGroup;
+			children = (
+				55E1A649251C83BA00171200 /* ChairViewController.swift */,
+				55E1A64E251C83C200171200 /* CouchViewController.swift */,
+				55E1A653251C83CA00171200 /* LoungeViewController.swift */,
+			);
+			path = "Sub VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +503,9 @@
 				551073012519B01700BEAB57 /* MainViewController.swift in Sources */,
 				556804C0251B002000EA0E3F /* MainCollectionViewCell.swift in Sources */,
 				5522FEDD251A1B7300CBC7E2 /* hapticFeedback.swift in Sources */,
+				55E1A64F251C83C200171200 /* CouchViewController.swift in Sources */,
+				55E1A64A251C83BA00171200 /* ChairViewController.swift in Sources */,
+				55E1A654251C83CA00171200 /* LoungeViewController.swift in Sources */,
 				5522FEE2251A7C6900CBC7E2 /* ProfileViewController.swift in Sources */,
 				551072FD2519B01700BEAB57 /* AppDelegate.swift in Sources */,
 				551072FF2519B01700BEAB57 /* SceneDelegate.swift in Sources */,

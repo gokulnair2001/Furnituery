@@ -34,11 +34,7 @@ class MainViewController: UIViewController {
         cellColour = [#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1)]
         
     }
-    
-    @IBAction func tpbtn(_ sender: Any) {
-        collectionView.reloadData()
-    }
-    
+   
 }
 
 
