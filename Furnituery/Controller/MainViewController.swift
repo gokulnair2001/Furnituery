@@ -26,12 +26,17 @@ class MainViewController: UIViewController {
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        collectionView.reloadData()
         
         arrImageData = [#imageLiteral(resourceName: "7"),#imageLiteral(resourceName: "4"),#imageLiteral(resourceName: "1"),#imageLiteral(resourceName: "2"),#imageLiteral(resourceName: "6"),#imageLiteral(resourceName: "3"),#imageLiteral(resourceName: "5")]
         itemName = ["Minimal Square Cut Tabel","Organic Picinc Table","Japanese Keelo Table","Smart Design Glass Table ","Smart Design SS Glass Table","Authentic Hindu Table","Cross-Over Square Table"]
         price = [1299,1399,2990,3000,1000,1500,1899]
         cellColour = [#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.9333251494, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.8392156863, green: 0.862745098, blue: 0.8509803922, alpha: 1),#colorLiteral(red: 0.9395547509, green: 0.9270929694, blue: 0.7370658517, alpha: 1)]
         
+    }
+    
+    @IBAction func tpbtn(_ sender: Any) {
+        collectionView.reloadData()
     }
     
 }

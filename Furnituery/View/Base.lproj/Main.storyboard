@@ -291,6 +291,14 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Z5-3C-4sX">
+                                <rect key="frame" x="69" y="57" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tpbtn:" destination="GLa-kS-ct1" eventType="touchUpInside" id="p19-Lk-bJC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cyt-aJ-itp"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -420,10 +428,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="v1g-lH-Qqj">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plus" translatesAutoresizingMaskIntoConstraints="NO" id="v1g-lH-Qqj">
                                 <rect key="frame" x="60" y="124" width="295" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7ye-mn-zKX" appends="YES" id="N5d-hc-hQn"/>
+                                </connections>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ey2-46-hjj">
+                                <rect key="frame" x="141" y="184" width="131" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lKd-5W-5db"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -432,6 +450,7 @@
                         <outlet property="AdditemImage" destination="v1g-lH-Qqj" id="Auz-TG-Z65"/>
                         <outlet property="addNameTextField" destination="GaW-hv-gpp" id="2gx-Gt-p7K"/>
                         <outlet property="addPriceTextField" destination="Ekz-Fo-Awl" id="4zX-O6-wj8"/>
+                        <outlet property="addimageLabel" destination="Ey2-46-hjj" id="F5I-xb-4ln"/>
                         <outlet property="bedRoomItems" destination="lbL-oM-4XH" id="dcZ-0C-LBX"/>
                         <outlet property="categoryLabel" destination="ALy-vK-tE9" id="IM7-eg-Owg"/>
                         <outlet property="livingRoomitems" destination="nid-fU-MXX" id="513-qj-SLX"/>
@@ -439,6 +458,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2p-UV-7ba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="7ye-mn-zKX">
+                    <connections>
+                        <action selector="imageSelection:" destination="3gL-hW-9zE" id="40r-oV-iKD"/>
+                        <outlet property="delegate" destination="v1g-lH-Qqj" id="7Z9-m6-lJI"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1169.5652173913045" y="2240.625"/>
         </scene>
@@ -606,7 +631,6 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="564" height="423"/>
-        <image name="2" width="350" height="350"/>
         <image name="bed.double" catalog="system" width="128" height="82"/>
         <image name="bg1" width="1024" height="1024"/>
         <image name="chevron.down.square" catalog="system" width="128" height="114"/>
@@ -618,6 +642,7 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="plus" width="128" height="128"/>
         <image name="questionmark.circle" catalog="system" width="128" height="121"/>
         <image name="shield.lefthalf.fill" catalog="system" width="128" height="121"/>
         <image name="shippingbox" catalog="system" width="128" height="124"/>
