@@ -16,7 +16,14 @@ class ExploreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        ChairView.layer.borderWidth = 0.5
+        ChairView.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        
+        couchView.layer.borderWidth = 0.5
+        couchView.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        
+        loungeView.layer.borderWidth = 0.5
+        loungeView.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     }
     
     @IBAction func chairVCBtn(_ sender: Any) {
