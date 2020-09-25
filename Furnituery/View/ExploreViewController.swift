@@ -29,7 +29,8 @@ class ExploreViewController: UIViewController {
     @IBAction func loungeVCBtn(_ sender: Any) {
         self.performSegue(withIdentifier: "toLoungeVC", sender: nil)
     }
+    @IBAction func cartBtn(_ sender: Any) {
+        self.performSegue(withIdentifier: "toCart", sender: nil)
+    }
     
-  
-
 }
